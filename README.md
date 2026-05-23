@@ -1,5 +1,5 @@
 ---
-title: N8n Free
+title: N8n Community Edition
 emoji: ⚡
 colorFrom: blue
 colorTo: gray
