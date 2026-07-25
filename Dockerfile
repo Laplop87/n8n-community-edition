@@ -8,6 +8,9 @@ FROM n8nio/n8n:${N8N_VERSION}
 ARG ALPINE_VERSION
 USER root
 
+# Set the default theme to Light
+ENV N8N_DEFAULT_THEME=light
+
 # Copy the static apk binary (fully self-contained)
 COPY --from=apktools /sbin/apk.static /sbin/apk.static
 COPY --from=apktools /etc/apk/keys /tmp/apk-keys
