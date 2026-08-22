@@ -1,5 +1,6 @@
-ARG N8N_VERSION=2.31.6
+ARG N8N_VERSION=2.35.7
 ARG ALPINE_VERSION=3.22
+ENV N8N_DEFAULT_THEME=light
 
 FROM alpine:${ALPINE_VERSION} AS apktools
 RUN apk add --no-cache apk-tools-static
