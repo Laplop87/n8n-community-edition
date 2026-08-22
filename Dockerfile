@@ -13,4 +13,8 @@ RUN apk add --no-cache python3 py3-pip \
 ENV N8N_DEFAULT_THEME=light
 
 # Switch back to the default n8n user
+<<<<<<< HEAD
 USER node
+=======
+USER node
+>>>>>>> 37d96fc (Fix Dockerfile content for n8n 2.35.7)
